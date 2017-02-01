@@ -1,7 +1,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.3/ace.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.3/ext-language_tools.js"></script>
 <script type="text/javascript">
-    RED.nodes.registerType('python-function',{
+    RED.nodes.registerType('python3-function',{
         category: 'function',
         color: '#fdd0a2',
         defaults: {
@@ -77,7 +77,7 @@
     });
 </script>
 
-<script type="text/x-red" data-template-name="python-function">
+<script type="text/x-red" data-template-name="python3-function">
     <div class="form-row">
         <label for="node-input-name"><i class="fa fa-tag"></i> <span>Name</span></label>
         <input type="text" id="node-input-name" placeholder="Name">
@@ -97,7 +97,7 @@
     <div class="form-tips"><span>See the Info tab for help writing Python functions</span></div>
 </script>
 
-<script type="text/x-red" data-help-name="python-function">
+<script type="text/x-red" data-help-name="python3-function">
     <p>Just like the plain old Javascript function node, but writting Python!</p>
     <p>All functionality of the javascript function node is to be expected (now or in the near future, or in a parallel universe)</p>
     <p>Virtually all posible incoming messages are supported, available as a Python dictionary. However bear in mind that all data inside msg that is not a valid JSON data type will be dropped from it permanently</p>
