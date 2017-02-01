@@ -13,8 +13,8 @@ I already told you so.
 Install
 -------
 
-Requires Python 2.7 installed in the system. 
-Compatible with python 3.X
+Requires minimum Python 2.7 installed in the system. 
+Works also with Python 3.X
 
 `npm install -g node-red-contrib-python3-function`
 
