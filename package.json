@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-python-function",
-  "version": "0.0.2",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/arnauorriols/node-red-contrib-python-function"
@@ -18,7 +18,7 @@
   "license": "MIT",
   "node-red": {
     "nodes": {
-      "python-function": "lib/python-function.js"
+      "python-function": "lib/python3-function.js"
     }
   },
   "dependencies": {
