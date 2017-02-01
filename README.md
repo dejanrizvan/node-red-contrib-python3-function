@@ -1,4 +1,4 @@
-Python Function NodeRED Node
+Python 3 Function NodeRED Node
 =============================
 
 Node-RED is a wonderful tool, but Javascript can be a rather painful language to write. 
@@ -14,8 +14,9 @@ Install
 -------
 
 Requires Python 2.7 installed in the system. 
+Compatible with python 3.X
 
-`npm install -g node-red-contrib-python-function`
+`npm install -g node-red-contrib-python3-function`
 
 Usage
 -----
