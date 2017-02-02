@@ -22,5 +22,14 @@
     }
   },
   "dependencies": {
-  }
+  },
+   "contributors": [
+    {
+      "name": "Dejan Rizvan",
+      "email": "dejan.rizvan@gmail.com",
+      "url": "https://github.com/dejanrizvan",
+      "contributions": 1,
+      "hireable": true
+    }
+  ]
 }
